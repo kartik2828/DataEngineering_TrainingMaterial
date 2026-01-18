@@ -580,3 +580,25 @@ OrderID | CustomerID | OrderType
 */
 -- Answer
 
+
+
+-- Que) You have one VARCHAR column that contains mixed data, separate numeric values and string values
+
+-- Type1
+select  from tableA where TRY_CAST(A as int  ) is not null 
+
+select  from tableA where TRY_CAST(A as int  ) is null 
+
+-- Type 2
+
+select A, 
+case 
+when try_cast(A as int) is not null then 'integer'
+else 'string'
+end as value_type
+from tableA
+
+-- Type 3
+
+select  from tableA where ISNUMERIC(A)=1  -- int
+select  from tableA where ISNUMERIC(A)=0 -- string

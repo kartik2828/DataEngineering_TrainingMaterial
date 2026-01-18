@@ -1,10 +1,5 @@
-
-create database targetfaang
-
-use targetfaang
-
-
-select * from [dbo].[people-100]
+-- Table Name : people-100
+-- Database Name: XYZ
 
 -- Basic SELECT: Retrieve the first name, last name, and email of all individuals from the table.
 
