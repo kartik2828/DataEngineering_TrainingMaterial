@@ -1,19 +1,19 @@
-## 📌 Table of Contents
 
-<details>
-<summary><b>1. SQL</b></summary>
+<h3> PYTHON STAGE 1</h3>
 
-- 🔵 Important sites  
-- 🔵 Basic questions  
-- 🔵 Scenario type questions  
+| Sr. No. | Topic Name                    | Subtopics / Concepts                                        |
+|--------:|------------------------------|--------------------------------------------------------------|
+| 1       | Python Basics                | Variables, Data Types, Operators, if-else, for, while, break, continue                |
+| 2       | Functions                    | def, arguments, return, lambda, map, filter, reduce          |
+| 5       | Data Structures              | List, Tuple, Set, Dictionary             |
+| 6       | String                       | Slicing, Formatting, Common Methods                          |
+| 8       | Exception Handling           | try, except, finally, raise, custom exceptions               |
 
-</details>
+<h3> PYTHON STAGE 2 </h3>
+| 10      | OOP Concepts                 | Class, Object, Inheritance, Polymorphism, Encapsulation      |
+| 12      | Decorators                   | Function decorators, @property                               |
 
-<details>
-<summary><b>2. Python</b></summary>
+<h3> PYTHON STAGE 3 </h3>
 
-- 🔵 Basic questions  
-- 🔵 NumPy questions  
-- 🔵 Pandas questions  
-
-</details>
+| 21      | Pandas Basics                | Numpy, Pandas,                    |
+| 22      | API                          | Get, Post, PUT                    |
