@@ -602,3 +602,5 @@ from tableA
 
 select  from tableA where ISNUMERIC(A)=1  -- int
 select  from tableA where ISNUMERIC(A)=0 -- string
+
+
